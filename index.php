@@ -13,6 +13,5 @@
 		<?php
 			include 'header.html';
 		?>
-        <div><p>HEJ JABBER!</p></div>
 	</body>
 </html>
