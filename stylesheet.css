@@ -1,7 +1,12 @@
 /*HEADER*/
 
+#master	{
+	width:980px;
+	height:auto;
+	background-color:#ff0000;
+}
+
 #headMaster	{
 	width: 100%;
 	height: 100px;
-	background-color:#ff0000;
 }

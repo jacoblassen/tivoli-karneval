@@ -10,13 +10,12 @@
 	</head>
 
 	<body>
-		<?php
-			include 'header.html';
-		?>
-        
-        <div><p>HEJ JABBER!</p></div>
-        <div><p>HEJ JABZ - fra mike</p></div>
-        <div><p>HEJ mike - fra jabz</p></div>
+		<div id="master">
+			<?php
+				include 'header.html';
+			?>
+		</div>
+		
         
 	</body>
 </html>
