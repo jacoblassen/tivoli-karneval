@@ -5,6 +5,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<title>Tivoli Karneval</title>
+		<link rel="stylesheet" href="cssreset.css" type="text/css" />
 		<link rel="stylesheet" href="stylesheet.css" type="text/css" />
 	</head>
 
