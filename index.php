@@ -10,12 +10,12 @@
 	</head>
 
 	<body>
-		<div id="master">
-			<?php
-				include 'header.html';
-			?>
-		</div>
 		
+	<?php
+		include 'header.html';
+	?>
+    <div id="master">
+	</div><!--master-->
         
 	</body>
 </html>
