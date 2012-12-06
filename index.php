@@ -13,5 +13,8 @@
 		<?php
 			include 'header.html';
 		?>
+        
+        <div><p>HEJ JABBER!</p></div>
+        <div><p>HEJ JABZ - fra mike</p></div>
 	</body>
 </html>
