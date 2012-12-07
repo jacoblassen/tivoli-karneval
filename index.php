@@ -7,14 +7,17 @@
 		<title>Tivoli Karneval</title>
 		<link rel="stylesheet" href="cssreset.css" type="text/css" />
 		<link rel="stylesheet" href="stylesheet.css" type="text/css" />
+        <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		
 	<?php
 		include 'header.html';
-	?>
+	?> 
     <div id="master">
+    <div id="dancinglady">
+    </div><!--dancinglady-->
 	</div><!--master-->
         
 	</body>
