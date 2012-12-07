@@ -13,6 +13,8 @@ body {
 #headMaster	{
 	width: 100%;
 	height: 180px;
+	background-image:url(images/headertransp.png);
+	background-repeat:repeat-x;
 }
 
 #maskheader{
