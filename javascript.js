@@ -52,9 +52,13 @@ function validateForm()	{
 		document.forms['form']['email'].style.backgroundColor = "#f06565";
 	}
 	
+	if(!(addr.match(/^[a-zA-ZæøåÆØÅ ]* [0-9]{1,30}( ?)[a-zA-ZæøåÆØÅ0-9\.]*$/))){
+		error = 1;
+		document.forms['form']['addr'].style.backgroundColor = "#f06565";
+	}
+	
 	if(!(zip.match(/^\d{4}$/))){
 		error = 1;
-		alert(zip)
 		document.forms['form']['zip'].style.backgroundColor = "#f06565";
 	}
 	
