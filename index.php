@@ -14,7 +14,7 @@
     	<script src="javascript.js" type="text/javascript"></script>
         <script type="text/javascript">
         $(document).ready(function () {
-            $('.quake-slider').quake({ effects: ['linearPealReverse', 'slideIn', 'explodeFancy'],
+            $('.quake-slider').quake({ effects: ['linearPealReverse', 'slideIn', 'explodeFancy', 'chopDimensions'],
                 thumbnails: true,
                 captionOpacity: '0.3',
 				pauseTime: 10000,
