@@ -73,7 +73,7 @@ h1 {
 #tilmeldKnap	{
 	width:50px;
 	height:200px;
-	background-image:url(images/tilmeldBold.png);
+	background-image:url(images/tilmeldkurv.png);
 	position:relative;
 	float:right;
 	cursor: pointer;
@@ -138,4 +138,42 @@ h1 {
 	width:200px;
 	height:auto;
 	float:right;
+}
+
+/*Kontakt*/
+
+#kontaktHead {
+	width: 100%;
+	height: auto;
+	border: solid green 1px;
+	margin: auto;
+}
+
+#kontaktWrap {
+	width: 	50%;
+	height: 600px;
+	border: solid red 1px;
+	display:inline-block; 
+}
+
+.kontaktPers {
+	float: left;
+	width: 200px;
+	height: 200px;
+	border: solid blue 1px;
+}
+
+.kontaktPic {
+	height: 150px;
+	width: 150px;
+}
+#kontaktForm {
+	height: 200px;
+	width: 180px;
+}
+
+#formWrap {
+	float: right;
+	border: solid grey 1px;
+	display:inline-block;
 }
