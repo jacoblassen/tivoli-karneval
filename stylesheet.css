@@ -9,11 +9,11 @@ body {
 h1 {
 	font-size:24px;
 	font-family: 'Old Standard TT', serif;
-	color:#a39a73;
+	color:#e5ddb9;
 }
 
 .p1 {
-	color:#a39a73;
+	color:#e5ddb9;
 	font-weight:400;
 }
 
@@ -53,7 +53,7 @@ h1 {
 	list-style-type: none;
 	margin: 20px 15px 0 15px;
 	font-family: 'Old Standard TT', serif;
-	color:#89825d;
+	color:#e5ddb9;
 	font-size:20px;
 	font-weight:600;
 }
