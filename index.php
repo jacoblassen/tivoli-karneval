@@ -8,6 +8,30 @@
 		<link rel="stylesheet" href="cssreset.css" type="text/css" />
 		<link rel="stylesheet" href="stylesheet.css" type="text/css" />
         <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
+        <link href="css/quake.slider.css" rel="stylesheet" type="text/css" />
+        <link href="skins/plain/quake.skin.css" rel="stylesheet" type="text/css" />
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+    	<script src="js/quake.slider-min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function () {
+            $('.quake-slider').quake({ effects: ['linearPealReverse', 'slideIn', 'explodeFancy'],
+                thumbnails: true,
+                captionOpacity: '0.3',
+				 captionsSetup: [
+                                {
+                                    "orientation": "right",
+                                    "slides": [0, 1, 2, 3],
+                                    "callback": captionAnimateCallback
+								}
+                               ]
+				
+            });
+	function captionAnimateCallback(captionWrapper, captionContainer, orientation) {
+               captionWrapper.css({ left: '-990px' }).stop(true, true).animate({ left: 0 }, 800);
+               captionContainer.css({ left: '-990px' }).stop(true, true).animate({ left: 0 }, 800);
+           }
+        });
+    	</script>
 	</head>
 
 	<body>
@@ -15,10 +39,32 @@
 	<?php
 		include 'header.html';
 	?> 
+    
+        <div id="dancinglady">
+	</div><!--dancinglady-->
     <div id="master">
-    <div id="dancinglady">
-    </div><!--dancinglady-->
+		<div id="featherdiv">    	
+            <div class="quake-slider">
+                <div class="quake-slider-images">
+                    <a href="javascript:/"><img src="images/fastelavn01.jpg" alt="" /></a>
+                    <a href="javascript:/"><img src="images/tivoliaarskort.jpg" alt="" /></a>
+                </div>
+                
+                <div class="quake-slider-captions quake-slider-caption-container">
+                    <div class="quake-slider-caption">
+                       <p>Slå katten af tønden for de små!</p>
+                       <p>Vi kårer årets kattekonge og kattedronning med pompt og pragt.</p>
+                    </div>
+                    <div class="quake-slider-caption">
+                         <p>Vind et Tivoli årskort ved at tilmelde dig vores konkurrence.</p>
+                    </div>
+                </div>
+                
+            </div>
+    	</div><!--featherdiv-->
 	</div><!--master-->
+    
+
         
 	</body>
 </html>

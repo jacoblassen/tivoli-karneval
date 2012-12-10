@@ -2,12 +2,8 @@
 
 body {
 	background-image:url(images/background.jpg);
-}
-
-#master	{
-	width:980px;
-	height:auto;
-	margin:0 auto 0 auto;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 }
 
 #headMaster	{
@@ -15,6 +11,13 @@ body {
 	height: auto;
 	background-image:url(images/headertransp.png);
 	background-repeat:repeat-x;
+}
+
+#master	{
+	width:980px;
+	height:auto;
+	margin: 0 auto 0 auto;
+	padding: 10px 0 0 0;
 }
 
 #maskheader{
@@ -41,5 +44,15 @@ body {
 	font-family: 'Old Standard TT', serif;
 	color:#89825d;
 	font-size:20px;
-	font-weight:500;
+	font-weight:600;
+}
+
+#dancinglady {
+	height: 688px;
+	width: 288px;
+	background-image:url(images/Damen10procent.png);
+	background-repeat:no-repeat;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 1%;
 }
