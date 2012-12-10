@@ -10,3 +10,10 @@ function tilmeldOpen()	{
 	document.getElementById("tilmeldMaster").style.height = height + "px"
 };
 
+function tilmeldClose()	{
+	document.getElementById("tilmeldMaster").style.display = "none"
+}
+
+function tilmeldProg(ev)	{
+		ev.stopPropagation();
+}

@@ -73,7 +73,7 @@ h1 {
 #tilmeldKnap	{
 	width:50px;
 	height:200px;
-	background-image:url(images/tilmeldkurv.png);
+	background-image:url(images/tilmeldBold.png);
 	position:relative;
 	float:right;
 	cursor: pointer;
