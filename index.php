@@ -35,8 +35,11 @@
 	</head>
 
 	<body>
-		
+	
+
+	
 	<?php
+		include 'tilmeld.html';
 		include 'header.html';
 	?> 
     
@@ -64,7 +67,6 @@
     	</div><!--featherdiv-->
 	</div><!--master-->
     
-
         
 	</body>
 </html>
