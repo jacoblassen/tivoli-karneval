@@ -76,7 +76,7 @@ body {
 	position:absolute;
 	margin: 0 auto 0 auto;
 	z-index:1000;
-	display:block;
+	display:none;
 }
 
 #tilmeldDiv	{
@@ -102,7 +102,7 @@ body {
 }
 
 #tilmeldDesc p	{
-	font-family: 'georgia, serif;
+	font-family: 'georgia', serif;
 	color:#000;
 	font-size:14px;
 }
