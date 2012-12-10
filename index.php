@@ -57,20 +57,27 @@
                 <div class="quake-slider-images">
                     <a href="javascript:/"><img src="images/fastelavn01.jpg" alt="" /></a>
                     <a href="javascript:/"><img src="images/tivoliaarskort.jpg" alt="" /></a>
+                    <a href="javascript:/"><img src="images/udklaedning.jpg" alt="" /></a>
                 </div>
                 
                 <div class="quake-slider-captions quake-slider-caption-container">
                     <div class="quake-slider-caption">
                     	<h1>Nyhed</h1>
                        	<p class="p1"> - Slå katten af tønden for de små!</p>
-                       	<br /><br />
+                       	<br />
                        	<p class="p1"> - Bliv årets kattekonge og kattedronning i Tivoli</p>
                 	</div><!--quake-slider-caption-->
                 	<div class="quake-slider-caption">
                     	<h1>Konkurrence</h1>
                         <br />
-                         <p class="p1"> - Tilmeld dig Tivolis karneval og vær med i lodtrækningen af gratis årskort!</p>
+                        <p class="p1"> - Tilmeld dig Tivolis karneval og vær med i lodtrækningen af gratis årskort!</p>
             		</div><!--quake-slider-caption-->
+                    <div class="quake-slider-caption">
+                    <h1>Vind</h1>
+                    <p class="p1"> - Pris for de bedst udklædte!</p>
+                    <br />
+                    <p class="p1"> - Kom og vær klædt ud og vind fede premier!</p>
+                    </div><!--quake-slider-caption-->
                 </div><!--quake-slider-captions quake-slider-caption-container-->
                 
            	</div>
