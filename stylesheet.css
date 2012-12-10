@@ -94,9 +94,9 @@ h1 {
 	width:500px;
 	height:600px;
 	margin: 200px auto 0 auto;
-	background-color:#5bbce4;
-	background-image:url(images/headertransp.png);
-	padding-top:10px;
+	/*background-color:#5bbce4;*/
+	background-image:url(images/headertransp03.png);
+	padding: 20px;
 	box-shadow: 3px 3px 4px #000;
 }
 
@@ -106,7 +106,7 @@ h1 {
 
 #tilmeldDesc h1	{
 	font-family: 'georgia', serif;
-	color:#89825d;
+	color:#e5ddb9;;
 	font-size:20px;
 	font-weight:600;
 	margin: 0 0 10px 0;
@@ -116,12 +116,14 @@ h1 {
 	font-family: 'georgia', serif;
 	color:#000;
 	font-size:14px;
+	color:#e5ddb9;
 }
 
 
 .formBox	{
 	height:30px;
 	margin:10px 10px 10px 10px;
+	color:#e5ddb9;
 }
 
 .formLeft	{
