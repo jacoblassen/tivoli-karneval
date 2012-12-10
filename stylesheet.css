@@ -62,7 +62,7 @@ body {
 #tilmeldKnap	{
 	width:50px;
 	height:200px;
-	background-color:red;
+	background-image:url(images/tilmeldFirkant.png);
 	position:relative;
 	float:right;
 	cursor: pointer;
@@ -92,6 +92,21 @@ body {
 #tilmeldDesc	{
 	margin:0 10px 10px 10px;
 }
+
+#tilmeldDesc h1	{
+	font-family: 'georgia', serif;
+	color:#89825d;
+	font-size:20px;
+	font-weight:600;
+	margin: 0 0 10px 0;
+}
+
+#tilmeldDesc p	{
+	font-family: 'georgia, serif;
+	color:#000;
+	font-size:14px;
+}
+
 
 .formBox	{
 	height:30px;
