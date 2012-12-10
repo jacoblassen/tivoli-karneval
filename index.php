@@ -11,6 +11,7 @@
         <link href="skins/plain/quake.skin.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery.min.js" type="text/javascript"></script>
     	<script src="js/quake.slider-min.js" type="text/javascript"></script>
+    	<script src="javascript.js" type="text/javascript"></script>
         <script type="text/javascript">
         $(document).ready(function () {
             $('.quake-slider').quake({ effects: ['linearPealReverse', 'slideIn', 'explodeFancy'],
