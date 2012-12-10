@@ -76,12 +76,36 @@ body {
 	position:absolute;
 	margin: 0 auto 0 auto;
 	z-index:1000;
-	display:none;
+	display:block;
 }
 
 #tilmeldDiv	{
 	width:500px;
 	height:600px;
-	background-color:#FF0000;
 	margin: 200px auto 0 auto;
+	background-color:#5bbce4;
+	background-image:url(images/headertransp.png);
+	padding-top:10px;
+	box-shadow: 3px 3px 4px #000;
+}
+
+#tilmeldDesc	{
+	margin:0 10px 10px 10px;
+}
+
+.formBox	{
+	height:30px;
+	margin:10px 10px 10px 10px;
+}
+
+.formLeft	{
+	width:200px;
+	height:auto;
+	float:left;
+}
+
+.formRight	{
+	width:200px;
+	height:auto;
+	float:right;
 }
