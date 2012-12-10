@@ -39,6 +39,7 @@
 .quake-slider-caption-container
 {
     background-color: black;
+	margin: 10px 5px 10px 50px;
 }
 .quake-slider-caption-container.vertical
 {
@@ -48,7 +49,7 @@
 }
 .quake-slider-caption-container.horizontal
 {
-    width: 990px;
+    width: 540px;
     height: 50px;
     padding-left: 20px;
 }
@@ -89,7 +90,7 @@
 }
 .quake-slider-caption.horizontal
 {
-    width: 990px;
+    width: 540px;
     height: 50px;
 }
 .quake-slider-caption.vertical.left
@@ -116,7 +117,7 @@
 {
     margin:0;
     padding:0;
-    width: 990px;
+    width: 540px;
     top: 0;
     left: 0;
 }

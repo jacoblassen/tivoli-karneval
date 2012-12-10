@@ -6,6 +6,17 @@ body {
 	background-attachment:fixed;
 }
 
+h1 {
+	font-size:24px;
+	font-family: 'Old Standard TT', serif;
+	color:#a39a73;
+}
+
+.p1 {
+	color:#a39a73;
+	font-weight:400;
+}
+
 #headMaster	{
 	width: 100%;
 	height: auto;

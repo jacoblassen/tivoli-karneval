@@ -17,6 +17,7 @@
                 thumbnails: true,
                 captionOpacity: '0.3',
 				pauseTime: 10000,
+				captionOpacity: 0.7,
 				 captionsSetup: [
                                 {
                                     "orientation": "right",
@@ -60,15 +61,19 @@
                 
                 <div class="quake-slider-captions quake-slider-caption-container">
                     <div class="quake-slider-caption">
-                       <p>Slå katten af tønden for de små!</p>
-                       <p>Vi kårer årets kattekonge og kattedronning med pompt og pragt.</p>
-                    </div>
-                    <div class="quake-slider-caption">
-                         <p>Vind et Tivoli årskort ved at tilmelde dig vores konkurrence.</p>
-                    </div>
-                </div>
+                    	<h1>Nyhed</h1>
+                       	<p class="p1"> - Slå katten af tønden for de små!</p>
+                       	<br /><br />
+                       	<p class="p1"> - Bliv årets kattekonge og kattedronning i Tivoli</p>
+                	</div><!--quake-slider-caption-->
+                	<div class="quake-slider-caption">
+                    	<h1>Konkurrence</h1>
+                        <br />
+                         <p class="p1"> - Tilmeld dig Tivolis karneval og vær med i lodtrækningen af gratis årskort!</p>
+            		</div><!--quake-slider-caption-->
+                </div><!--quake-slider-captions quake-slider-caption-container-->
                 
-            </div>
+           	</div>
     	</div><!--featherdiv-->
 	</div><!--master-->
     

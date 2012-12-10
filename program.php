@@ -10,7 +10,10 @@
 
 <body>
 <?php
-include 'header.html'
+	include 'header.html'
+?>
+<?php
+	include 'lady.html'
 ?>
 </body>
 </html>
