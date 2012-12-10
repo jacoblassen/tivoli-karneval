@@ -87,7 +87,7 @@ h1 {
 	position:absolute;
 	margin: 0 auto 0 auto;
 	z-index:1000;
-	display:block;
+	display:none;
 }
 
 #tilmeldDiv	{
