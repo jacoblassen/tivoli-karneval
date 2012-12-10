@@ -17,6 +17,7 @@
             $('.quake-slider').quake({ effects: ['linearPealReverse', 'slideIn', 'explodeFancy'],
                 thumbnails: true,
                 captionOpacity: '0.3',
+				pauseTime: 10000,
 				 captionsSetup: [
                                 {
                                     "orientation": "right",
@@ -26,9 +27,13 @@
                                ]
 				
             });
-	function captionAnimateCallback(captionWrapper, captionContainer, orientation) {
-               captionWrapper.css({ left: '-990px' }).stop(true, true).animate({ left: 0 }, 800);
-               captionContainer.css({ left: '-990px' }).stop(true, true).animate({ left: 0 }, 800);
+			function captionAnimateCallback(captionWrapper, captionContainer, orientation) {
+               captionWrapper.css({ left: '-990px' }).stop(true, true).animate({ left: 0 }, 500);
+               captionContainer.css({ left: '-990px' }).stop(true, true).animate({ left: 0 }, 500);
+           }
+		   	function captionAnimationCallback1(captionWrapper, captionContainer, orientation) {
+               captionWrapper.css({ top: '-330px' }).stop(true, true).animate({ top: 0 }, 500);
+               captionContainer.css({ top: '-330px' }).stop(true, true).animate({ top: 0 }, 500);
            }
         });
     	</script>
@@ -43,8 +48,9 @@
 		include 'header.html';
 	?> 
     
-        <div id="dancinglady">
-	</div><!--dancinglady-->
+    <?php
+		include 'lady.html'
+	?>
     <div id="master">
 		<div id="featherdiv">    	
             <div class="quake-slider">
