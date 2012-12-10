@@ -37,7 +37,7 @@ function validateForm()	{
 	var zip = document.forms['form']['zip'].value;
 	var news = document.forms['form']['news'].checked;
 	
-	if(!(fname.match(/^[a-zA-ZæøåÆØÅ]+$/))){
+	if(!(fname.match(/^[a-zA-ZæøåÆØÅ é]+$/))){
 		error = 1;
 		document.forms['form']['fname'].style.backgroundColor = "#f06565";
 	}
