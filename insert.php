@@ -7,6 +7,8 @@
 	$email = $_POST['email'];
 	$error = 1;
 	
+	$stmt = $link->prepare()
+	
 	if(isset($_POST["news"])){
 		$news = 2;
 	}
