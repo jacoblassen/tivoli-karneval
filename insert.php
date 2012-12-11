@@ -8,7 +8,7 @@
 	$error = 1;
 	$sender = "karneval@tivoli.dk";
 	
-	//$stmt = $link->prepare();
+	//$query = "SELECT email FROM bruger WHERE"
 	
 	if(isset($_POST["news"])){
 		$news = 2;
@@ -46,5 +46,22 @@
 	$stmt->bind_param("ssssis", $fname, $lname, $addr, $email, $zip, $news);
 	$stmt->execute();
 	
-	mail($email, "Karneval i Tivoli", "test besked", "From: $sender");
+	$headers = "From: " . $sender . "\r\n";
+	$headers .= "Reply-To: ". $sender . "\r\n";
+	$headers .= "CC: susan@example.com\r\n";
+	$headers .= "MIME-Version: 1.0\r\n";
+	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+	
+	$message = '<html>
+  <body bgcolor="#DCEEFC">
+    <center>
+        <b>Looool!!! I am reciving HTML email......</b> <br>
+        <font color="red">Thanks Mohammed!</font> <br>
+        <a href="http://www.maaking.com/">* maaking.com</a>
+    </center>
+      <br><br>*** Now you Can send HTML Email <br> Regards<br>MOhammed Ahmed - Palestine
+  </body>
+</html>';
+
+	mail($email, "Karneval i Tivoli", "$message", "$headers");
 ?>
