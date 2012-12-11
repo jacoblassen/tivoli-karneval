@@ -12,7 +12,6 @@
 <body>
 <?php
 	include 'tilmeld.html';
-	include 'tilmeld.html'
 ?>
 <?php
 	include 'header.html'
