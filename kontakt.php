@@ -49,7 +49,7 @@
             
             <div id="formWrap">
              
-             		<div id="kontaktForm">
+             	<div id="kontaktForm">
                     	<h1>Kontakt os</h1>
                         <br />
                     	<form action="#" method="post" onsubmit="return validateform(); Eller lignende">
@@ -62,8 +62,8 @@
                             <input type="submit" />
                         </form>
                     
-                		</div>
-            	</div><!-- formWrap -->
+                	</div><!--kontaktForm-->
+            </div><!-- formWrap -->
 
     
     </div> <!-- master -->
