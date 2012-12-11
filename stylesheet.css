@@ -69,6 +69,32 @@ h1 {
 	margin-left: 1%;
 }
 
+.navBox	{
+	display:inline-block;
+}
+
+.navText	{
+	width:auto;
+}
+
+.navArrow	{
+	width:15px;
+	height:13px;
+	background-image:url(images/pil.png);
+	margin: 2px auto 0 auto;
+	display:none;
+}
+
+.navText p	{
+	display: inline;
+	list-style-type: none;
+	margin: 20px 15px 0 15px;
+	font-family: 'Old Standard TT', serif;
+	color:#e5ddb9;
+	font-size:20px;
+	font-weight:600;
+}
+
 /*Tilmelding*/
 
 #tilmeldKnap	{
@@ -194,28 +220,3 @@ h1 {
 #contactwrapper li {
 	display: inline;
 }
-
-/*#leftsideframe {
-	height: 4px;
-	width: 26px;
-	background-image:url(images/rammeleft01.png);
-	background-repeat:repeat-y;
-	float: left;
-	margin-left: 45px;
-}
-
-#middleframe {
-	height: 4px;
-	width: 648px;
-	float: left;
-}
-
-#rightsideframe {
-	height: 4px;
-	width: 26px;
-	margin-right: 46px;
-	background-image:url(images/rammeright01.png);
-	background-repeat:repeat-y;
-	float: right;
-}*/
-

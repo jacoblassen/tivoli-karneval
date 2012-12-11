@@ -11,11 +11,17 @@
 
 <body>
 <?php
-	include 'tilmeld.html'
+	include 'tilmeld.html';
 ?>
 <?php
 	include 'header.html'
 ?>
+
+<script type="text/javascript">
+    	var id = "kontakt";
+    	document.getElementById(id+'A').style.display = "block";
+    </script>
+
 <?php
 	include 'lady.html'
 ?>

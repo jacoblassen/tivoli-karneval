@@ -49,6 +49,11 @@
 		include 'header.html';
 	?> 
     
+    <script type="text/javascript">
+    	var id = "index";
+    	document.getElementById(id+'A').style.display = "block";
+    </script>
+    
     <?php
 		include 'lady.html'
 	?>

@@ -10,8 +10,15 @@
 
 <body>
 <?php
+	include 'tilmeld.html';
 	include 'header.html'
 ?>
+
+<script type="text/javascript">
+    	var id = "program";
+    	document.getElementById(id+'A').style.display = "block";
+    </script>
+
 <?php
 	include 'lady.html'
 ?>

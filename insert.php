@@ -8,7 +8,21 @@
 	$error = 1;
 	$sender = "karneval@tivoli.dk";
 	
-	//$query = "SELECT email FROM bruger WHERE"
+	$query = "SELECT email, addresse FROM bruger WHERE email = '".$email."' OR addresse = '".$addr."'";
+	$result = $link->query($query);
+		while($row = $result->fetch_assoc()){
+			if($row['email'] == $email){
+				$error = 2;
+				echo $row['email']."<br />".$email;
+				echo "e-mailen findes";
+				return;
+			}
+			if($row['addresse'] == $addr){
+				$error = 2;
+				echo "addressen er allerede registreret";
+				return;
+			}
+		}
 	
 	if(isset($_POST["news"])){
 		$news = 2;
@@ -53,15 +67,15 @@
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 	
 	$message = '<html>
-  <body bgcolor="#DCEEFC">
-    <center>
-        <b>Looool!!! I am reciving HTML email......</b> <br>
-        <font color="red">Thanks Mohammed!</font> <br>
-        <a href="http://www.maaking.com/">* maaking.com</a>
-    </center>
-      <br><br>*** Now you Can send HTML Email <br> Regards<br>MOhammed Ahmed - Palestine
-  </body>
-</html>';
+  	<body bgcolor="#DCEEFC">
+   		<center>
+	        <b>Looool!!! I am reciving HTML email......</b> <br>
+	        <font color="red">Thanks Mohammed!</font> <br>
+	        <a href="http://www.maaking.com/">* maaking.com</a>
+	    	</center>
+	      <br><br>*** Now you Can send HTML Email <br> Regards<br>MOhammed Ahmed - Palestine
+	  </body>
+	</html>';
 
-	mail($email, "Karneval i Tivoli", "$message", "$headers");
+	//mail($email, "Karneval i Tivoli", "$message", "$headers");
 ?>
