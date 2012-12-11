@@ -146,6 +146,7 @@ h1 {
 .p2 {
 	font-family: 'Old Standard TT', serif;
 	color:#e5ddb9;
+	line-height: 150%;
 }
 
 #masterKontakt	{
@@ -164,7 +165,7 @@ h1 {
 
 #kontaktWrap {
 	width: 	50%;
-	height: 500px;
+	height: 525px;
 	display:inline-block;
 	margin-left: 40px; 
 }
@@ -173,7 +174,7 @@ h1 {
 	float: left;
 	width: 200px;
 	height: 200px;
-	margin-bottom: 5px;
+	margin-bottom: 40px;
 }
 
 .kontaktPic {
@@ -183,7 +184,7 @@ h1 {
 #kontaktForm {
 	height: auto;
 	width: 200px;
-	margin-right: 40px;
+	margin-right: 45px;
 }
 
 #formWrap {
