@@ -15,11 +15,11 @@
 <?php
 	include 'lady.html'
 ?>
-	<div id="master">
+	<div id="masterKontakt">
     
           	<div id="kontaktWrap"> 
             	<h1>Title</h1>
-                
+                <br />
                 
             	<div class="kontaktPers"><img class="kontaktPic" src="images/pic01.jpg" />
                 	<p>Info text<br />
@@ -64,10 +64,7 @@
                     
                 		</div>
             	</div><!-- formWrap -->
-             
-             	
-            
-    
+
     
     </div> <!-- master -->
 
