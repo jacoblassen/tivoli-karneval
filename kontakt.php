@@ -6,9 +6,13 @@
 <link rel="stylesheet" href="cssreset.css" type="text/css" />
 <link rel="stylesheet" href="stylesheet.css" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
+<script src="javascript.js" type="text/javascript"></script>
 </head>
 
 <body>
+<?php
+	include 'tilmeld.html'
+?>
 <?php
 	include 'header.html'
 ?>
@@ -22,25 +26,25 @@
                 <br />
                 
             	<div class="kontaktPers"><img class="kontaktPic" src="images/pic01.jpg" />
-                	<p>Info text<br />
+                	<p class="p2">Info text<br />
                     info text 2<br />
                   info tetx 3</p>
                 </div>
                 
                 <div class="kontaktPers"><img class="kontaktPic" src="images/pic02.jpg" />
-                	<p>Info text<br />
+                	<p class="p2">Info text<br />
                     info text 2<br />
                   info tetx 3</p>
                 </div>
                 
               <div class="kontaktPers"><img class="kontaktPic" src="images/pic03.jpg" />
-                	<p>Info text<br />
+                	<p class="p2">Info text<br />
                     info text 2<br />
                   info tetx 3</p>
                 </div>
                 
                 <div class="kontaktPers"><img class="kontaktPic" src="images/pic04.jpg" />
-                	<p>Info text<br />
+                	<p class="p2">Info text<br />
                     info text 2<br />
                   info tetx 3</p>
               </div>
@@ -53,12 +57,9 @@
                     	<h1>Kontakt os</h1>
                         <br />
                     	<form action="#" method="post" onsubmit="return validateform(); Eller lignende">
-                        	Fornavn: <br /><input type="text" name="fname" size="30"/><br />
-                      		Efternavn: <br /><input type="text" name="lname" size="30"/><br />
-                            Adresse: <br /><input type="text" name="addr" size="30"/><br />
-                            Postnummer: <br /><input type="text" name="zip" size="30"/><br />
-                            By: <br /><input type="text" name="bynavn" size="30"/><br />
-                            Email: <br /><input type="text" name="email" size="30"/><br />
+                        	<p class="p2">Fornavn:</p><input type="text" name="fname" size="30"/>
+                            <p class="p2">Email:</p><input type="text" name="email" size="30"/>
+                            <p class="p2">Emne/kommentar:</p><textarea id="text_area" cols="30" rows="5" style="resize:none"></textarea>
                             <input type="submit" />
                         </form>
                     
