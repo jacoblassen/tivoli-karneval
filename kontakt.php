@@ -21,21 +21,27 @@
             	<h1>Title</h1>
                 
                 
-            	<div class="kontaktPers"><img class="kontaktPic" src="" />
-                	<p>Info text</p>
+            	<div class="kontaktPers"><img class="kontaktPic" src="images/pic01.jpg" />
+                	<p>Info text<br />
+                    info text 2<br />
+                  info tetx 3</p>
                 </div>
                 
-                <div class="kontaktPers"><img class="kontaktPic" src="" />
-                	<p>Info text</p>
+                <div class="kontaktPers"><img class="kontaktPic" src="images/pic02.jpg" />
+                	<p>Info text<br />
+                    info text 2<br />
+                  info tetx 3</p>
                 </div>
                 
-              <div class="kontaktPers"><img class="kontaktPic" src="" />
-                	<p>Info text</p>
+              <div class="kontaktPers"><img class="kontaktPic" src="images/pic03.jpg" />
+                	<p>Info text<br />
+                    info text 2<br />
+                  info tetx 3</p>
                 </div>
                 
-                <div class="kontaktPers"><img class="kontaktPic" src="" />
-                	<p>Info text
-                    info text 2
+                <div class="kontaktPers"><img class="kontaktPic" src="images/pic04.jpg" />
+                	<p>Info text<br />
+                    info text 2<br />
                   info tetx 3</p>
               </div>
      	
@@ -45,11 +51,15 @@
              
              		<div id="kontaktForm">
                     	<h1>Kontakt os</h1>
-                    	<form>
-                        	<input type="text" name="fname"/>
-                            <input type="text" name="lname"/>
-                            <input type="text" name="addr"/>
-                            <input type="text" name="zip"/>
+                        <br />
+                    	<form action="#" method="post" onsubmit="return validateform(); Eller lignende">
+                        	Fornavn: <br /><input type="text" name="fname" size="30"/><br />
+                      		Efternavn: <br /><input type="text" name="lname" size="30"/><br />
+                            Adresse: <br /><input type="text" name="addr" size="30"/><br />
+                            Postnummer: <br /><input type="text" name="zip" size="30"/><br />
+                            By: <br /><input type="text" name="bynavn" size="30"/><br />
+                            Email: <br /><input type="text" name="email" size="30"/><br />
+                            <input type="submit" />
                         </form>
                     
                 		</div>

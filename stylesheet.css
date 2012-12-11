@@ -151,8 +151,7 @@ h1 {
 
 #kontaktWrap {
 	width: 	50%;
-	height: 600px;
-	border: solid red 1px;
+	height: 500px;
 	display:inline-block; 
 }
 
@@ -160,7 +159,6 @@ h1 {
 	float: left;
 	width: 200px;
 	height: 200px;
-	border: solid blue 1px;
 }
 
 .kontaktPic {
@@ -168,12 +166,12 @@ h1 {
 	width: 150px;
 }
 #kontaktForm {
-	height: 200px;
-	width: 180px;
+	height: auto;
+	width: 200px;
 }
 
 #formWrap {
 	float: right;
-	border: solid grey 1px;
 	display:inline-block;
+	height: auto;
 }
