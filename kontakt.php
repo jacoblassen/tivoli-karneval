@@ -11,13 +11,10 @@
 
 <body>
 <?php
-<<<<<<< HEAD
 	include 'tilmeld.html';
-=======
 	include 'tilmeld.html'
 ?>
 <?php
->>>>>>> f44b4fbcadaf59eb7317c78414ec34cdbb846077
 	include 'header.html'
 ?>
 
