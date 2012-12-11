@@ -8,10 +8,10 @@
 	$error = 1;
 	
 	if(isset($_POST["news"])){
-		$news = 1;
+		$news = 2;
 	}
 	else{
-		$news = 2;
+		$news = 1;
 	}
 	
 	if (!preg_match("/^[a-zA-ZæøåÆØÅ ]{2,}$/", $fname))	{
