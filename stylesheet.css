@@ -141,54 +141,81 @@ h1 {
 	float:right;
 }
 
-/*Kontakt*/
-
-.p2 {
-	font-family: 'Old Standard TT', serif;
-	color:#e5ddb9;
-	line-height: 150%;
+#frame {
+	height: 600px;
+	width: 700px;
+	margin: 10px auto 0 auto;
 }
 
-#masterKontakt	{
-	width:800px;
-	height:auto;
-	margin: 0 auto 0 auto;
-	padding: 10px 0 0 0;
-	background-image: url(images/overlay.png)
+#frametop {
+	height: 100px;
+	width: 700px;
+	
 }
 
-#kontaktHead {
-	width: 100%;
+#sideframewrapper{
 	height: auto;
-	margin: auto;
+	width: 700px;
 }
 
-#kontaktWrap {
-	width: 	50%;
-	height: 525px;
-	display:inline-block;
-	margin-left: 40px; 
+#framebottom {
+	height:100px;
+	width: 700px;
 }
 
-.kontaktPers {
-	float: left;
-	width: 200px;
-	height: 200px;
-	margin-bottom: 40px;
+#rammemiddle {
+	height: auto;
+	widht: 700px;
+	background-image:url(images/rammemiddle02.png);
+	background-repeat:repeat-y;
 }
 
-.kontaktPic {
-	height: 150px;
+#rammecontent {
+	height: auto;
+	width: 520px;
+	margin: 0 90px 0 90px;
+}
+
+.contactimage {
 	width: 150px;
-}
-#kontaktForm {
-	height: auto;
-	width: 200px;
-	margin-right: 45px;
+	height: 150px;
 }
 
-#formWrap {
-	float: right;
-	display:inline-block;
-	height: auto;
+.contacttext {
+	width: 300px;
+	height: 150px;
 }
+
+#contactwrapper {
+	height: 150px;
+	width: 520px;
+}
+
+#contactwrapper li {
+	display: inline;
+}
+
+/*#leftsideframe {
+	height: 4px;
+	width: 26px;
+	background-image:url(images/rammeleft01.png);
+	background-repeat:repeat-y;
+	float: left;
+	margin-left: 45px;
+}
+
+#middleframe {
+	height: 4px;
+	width: 648px;
+	float: left;
+}
+
+#rightsideframe {
+	height: 4px;
+	width: 26px;
+	margin-right: 46px;
+	background-image:url(images/rammeright01.png);
+	background-repeat:repeat-y;
+	float: right;
+}*/
+

@@ -19,56 +19,34 @@
 <?php
 	include 'lady.html'
 ?>
-	<div id="masterKontakt">
-    
-          	<div id="kontaktWrap"> 
-            	<h1>Title</h1>
-                <br />
-                
-            	<div class="kontaktPers"><img class="kontaktPic" src="images/pic01.jpg" />
-                	<p class="p2">Info text<br />
-                    info text 2<br />
-                  info tetx 3</p>
-                </div>
-                
-                <div class="kontaktPers"><img class="kontaktPic" src="images/pic02.jpg" />
-                	<p class="p2">Info text<br />
-                    info text 2<br />
-                  info tetx 3</p>
-                </div>
-                
-              <div class="kontaktPers"><img class="kontaktPic" src="images/pic03.jpg" />
-                	<p class="p2">Info text<br />
-                    info text 2<br />
-                  info tetx 3</p>
-                </div>
-                
-                <div class="kontaktPers"><img class="kontaktPic" src="images/pic04.jpg" />
-                	<p class="p2">Info text<br />
-                    info text 2<br />
-                  info tetx 3</p>
-              </div>
-     	
-            </div><!-- kontaktWrap -->
+<div id="master">
+  <div id="frame">
+		<div id="frametop">
+        	<img src="images/rammetop02.png" />
+        </div><!--frametop-->
+        <div id="sideframewrapper">
+        
+        <div id="rammemiddle">
+        	<div id="rammecontent">
+            	<div id="contactwrapper">
+                <ul>
+            		<li><div class="contactimage">
+                		<img src="images/285414_150347188373799_4268644_n.jpg" height="150px" width="150px" />
+                	</div><!--contactimage--></li>
+                	<li><div class="contacttext">
+                    <h1>lololol</h1>
+                	</div><!--contacttext--></li>
+                    </ul>
+                </div><!--contactwrapper-->
+            </div><!--rammecontent-->
+        </div><!--rammemiddle-->
             
-            <div id="formWrap">
-             
-             	<div id="kontaktForm">
-                    	<h1>Kontakt os</h1>
-                        <br />
-                    	<form action="#" method="post" onsubmit="return validateform(); Eller lignende">
-                        	<p class="p2">Fornavn:</p><input type="text" name="fname" size="30"/>
-                            <p class="p2">Email:</p><input type="text" name="email" size="30"/>
-                            <p class="p2">Emne/kommentar:</p><textarea id="text_area" cols="30" rows="5" style="resize:none"></textarea>
-                            <input type="submit" />
-                        </form>
-                    
-                	</div><!--kontaktForm-->
-            </div><!-- formWrap -->
-
-    
-    </div> <!-- master -->
-
+        </div><!--sideframewrapper-->
+    	<div id="framebottom">
+        	<img src="images/rammebottom02.png" />
+        </div>
+    </div>
+</div><!-- master -->
 	
 
 </body>
