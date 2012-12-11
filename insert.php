@@ -6,8 +6,9 @@
 	$zip = $_POST['zip'];
 	$email = $_POST['email'];
 	$error = 1;
+	$sender = "karneval@tivoli.dk";
 	
-	$stmt = $link->prepare()
+	//$stmt = $link->prepare();
 	
 	if(isset($_POST["news"])){
 		$news = 2;
@@ -26,7 +27,7 @@
 		$error = 2;
 	}	
 	
-	if (!preg_match("/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6}$/", $email))	{
+	if (!preg_match("/^\w+@[a-zA-Z_-]+?\.[a-zA-Z]{2,6}$/", $email))	{
 		echo "email er skrevet i forkert format <br />";
 		$error = 2;
 	}	
@@ -44,4 +45,6 @@
 	$stmt = $link->prepare("INSERT INTO bruger (fornavn, efternavn, addresse, email, postnr, nyhedsbrev) VALUES (?,?,?,?,?,?)");
 	$stmt->bind_param("ssssis", $fname, $lname, $addr, $email, $zip, $news);
 	$stmt->execute();
+	
+	mail($email, "Karneval i Tivoli", "test besked", "From: $sender");
 ?>

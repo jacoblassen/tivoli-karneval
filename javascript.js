@@ -47,7 +47,7 @@ function validateForm()	{
 		document.forms['form']['lname'].style.backgroundColor = "#f06565";
 	}
 	
-	if(!(email.match(/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6}$/))){
+	if(!(email.match(/^\w+@[a-zA-Z_-]+?\.[a-zA-Z]{2,6}$/))){
 		error = 1;
 		document.forms['form']['email'].style.backgroundColor = "#f06565";
 	}
