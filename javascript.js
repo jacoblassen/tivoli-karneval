@@ -71,22 +71,60 @@ function validateForm()	{
 	
 }
 
+var febI = 1;
+var febII = 1;
+var febIII = 1;
+var febIIII = 1;
 
-	var febI = 1
-	var febII = 1
-	var febIII = 1
-	var febIIII = 1
-	 
-function toggle(id) {
-		
-		if(id == 1) {
-    		document.getElementById(id).hide('slow');
-			febI = 2;
-		
-  	}
-	
-		else {$('#'+id).show('slow');
-			febI = 1;
-			
+function togglefebI(){
+	if(febI == 2){
+		$('#febI').hide('slow');
+		febI = 1;
+	}
+	else{
+		$('#febI').show('slow');
+		febI = 2;
 	}
 }
+
+function togglefebII(){
+	if(febI == 2){
+		$('#febII').hide('slow');
+		febI = 1;
+	}
+	else{
+		$('#febII').show('slow');
+		febI = 2;
+	}
+}
+
+function togglefebIII(){
+	if(febI == 2){
+		$('#febIII').hide('slow');
+		febI = 1;
+	}
+	else{
+		$('#febIII').show('slow');
+		febI = 2;
+	}
+}
+
+function togglefebIIII(){
+	if(febI == 2){
+		$('#febIIII').hide('slow');
+		febI = 1;
+	}
+	else{
+		$('#febIIII').show('slow');
+		febI = 2;
+	}
+}
+
+$(document).ready(function() {
+	$('#febI').hide();
+	$('#febII').hide();
+	$('#febIII').hide();
+	$('#febIIII').hide();
+});
+	
+		
