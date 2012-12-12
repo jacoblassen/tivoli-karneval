@@ -70,3 +70,23 @@ function validateForm()	{
 	}
 	
 }
+
+
+	var febI = 1
+	var febII = 1
+	var febIII = 1
+	var febIIII = 1
+	 
+function toggle(id) {
+		
+		if(id == 1) {
+    		document.getElementById(id).hide('slow');
+			febI = 2;
+		
+  	}
+	
+		else {$('#'+id).show('slow');
+			febI = 1;
+			
+	}
+}

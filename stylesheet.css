@@ -9,12 +9,27 @@ body {
 h1 {
 	font-size:24px;
 	font-family: 'Old Standard TT', serif;
+	font-weight:600;
 	color:#e5ddb9;
+}
+
+h2 {
+	font-size:22px;
+	font-family: 'Old Standard TT', serif;
+	ont-weight:600;
+	color:#e5ddb9;
+	
 }
 
 .p1 {
 	color:#e5ddb9;
+	font-size:18px;
 	font-weight:400;
+}
+
+#test {
+	width: auto;
+	display:none;
 }
 
 #headMaster	{
@@ -207,13 +222,39 @@ h1 {
 	height: 150px;
 }
 
+
+
+.programimage {
+	width: 150px;
+	height: 150px;
+	margin: 10px 5px 50px 5px;
+	float: left;
+	
+}
+
+.programtext {
+	width: 300px;
+	height: auto;
+	margin: 10px 5px 50px 5px;
+	float:left;
+	
+}
+
+
+
 .contacttext {
 	width: 300px;
 	height: 150px;
 }
 
+
 #contactwrapper {
 	height: 150px;
+	width: 520px;
+}
+
+#programwrapper {
+	height: auto;
 	width: 520px;
 }
 
