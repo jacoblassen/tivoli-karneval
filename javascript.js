@@ -93,12 +93,12 @@ function togglefebII(){
 	if(febI == 2){
 		$('#febII').hide('slow');
 		$('#febIIspan').text("Vis program");
-		febI = 1;
+		febII = 1;
 	}
 	else{
 		$('#febII').show('slow');
 		$('#febIIspan').text("skjul program");
-		febI = 2;
+		febII = 2;
 	}
 }
 
@@ -106,12 +106,12 @@ function togglefebIII(){
 	if(febI == 2){
 		$('#febIII').hide('slow');
 		$('#febIIIspan').text("Vis program");
-		febI = 1;
+		febIII = 1;
 	}
 	else{
 		$('#febIII').show('slow');
 		$('#febIIIspan').text("skjul program");
-		febI = 2;
+		febIII = 2;
 	}
 }
 
@@ -119,12 +119,12 @@ function togglefebIIII(){
 	if(febI == 2){
 		$('#febIIII').hide('slow');
 		$('#febIIIIspan').text("Vis program");
-		febI = 1;
+		febIIII = 1;
 	}
 	else{
 		$('#febIIII').show('slow');
 		$('#febIIIIspan').text("skjul program");
-		febI = 2;
+		febIIII = 2;
 	}
 }
 
