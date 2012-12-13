@@ -41,9 +41,8 @@
 	</head>
 
 	<body>
-	
+	<a name="top"></a>
 
-	
 	<?php
 		include 'tilmeld.html';
 		include 'header.html';
@@ -97,12 +96,19 @@
                 	<h1>Nyheder</h1>
                 </div><!--frametophtag-->
             </div><!--frametop-->
+            
             <div id="rammemiddle">
                	<div class="rammecontent">
+                	
                	</div><!--rammecontent-->
             </div><!--rammemiddle-->
+            
             <div id="framebottom">
+            	<div id="tiltoppen">
+        			<a href="#top"><p>Tilbage til toppen</p></a>
+           		</div><!--tiltoppen-->
             </div><!--framebottom-->
+            
        	</div><!--frame-->
 
     </div><!--master-->
