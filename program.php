@@ -51,9 +51,10 @@
        
                <p id="febI" class="p1">
                 
-                Kl. 12:00 åbnes dørene for karnevalet<br	/><br	/>
-                Kl. 12:15 kan man komme ind i glassalen og lave sine egen personlige maske<br	/><br	/>
+                Kl. 12:00 Åbnes dørene for karnevalet<br	/><br	/>
+                Kl. 12:15 Lav din egen karnevalsmaske i glassalen<br	/><br	/>
                 Kl. 12:45 Spiller Stortrommen og klapperne på den store scene<br	/><br	/>
+                Kl. 13:30 Slå katten af tønden ved haveanlægget foran koncertsalen<br	/><br	/>
                 
                 </p>
                 
@@ -66,8 +67,8 @@
                 
                 <p id="febII" class="p1">
                 
-                Kl. 12:00 åbnes dørene for karnevalet<br	/><br	/>
-                Kl. 12:15 kan man komme ind i glassalen og lave sine egen personlige maske<br	/><br	/>
+                Kl. 12:00 Åbnes dørene for karnevalet<br	/><br	/>
+                Kl. 12:15 Lav din egen karnevalsmaske i glassalen<br	/><br	/>
                 Kl. 12:45 Spiller Stortrommen og klapperne på den store scene<br	/><br	/>
                 
                 </p> 
@@ -80,8 +81,8 @@
                 
                 <p id="febIII" class="p1">
                 
-                Kl. 12:00 åbnes dørene for karnevalet<br	/><br	/>
-                Kl. 12:15 kan man komme ind i glassalen og lave sine egen personlige maske<br	/><br	/>
+                Kl. 12:00 Åbnes dørene for karnevalet<br	/><br	/>
+                Kl. 12:15 Lav din egen karnevalsmaske i glassalen<br	/><br	/>
                 Kl. 12:45 Spiller Stortrommen og klapperne på den store scene<br	/><br	/>
                 
                 </p> 
@@ -94,8 +95,8 @@
                 
                 <p id="febIIII" class="p1">
                 
-                Kl. 12:00 åbnes dørene for karnevalet<br	/><br	/>
-                Kl. 12:15 kan man komme ind i glassalen og lave sine egen personlige maske<br	/><br	/>
+                Kl. 12:00 Åbnes dørene for karnevalet<br	/><br	/>
+                Kl. 12:15 Lav din egen karnevalsmaske i glassalen<br	/><br	/>
                 Kl. 12:45 Spiller Stortrommen og klapperne på den store scene<br	/><br	/>
                 
                 </p>
