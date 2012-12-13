@@ -90,7 +90,7 @@ function togglefebI(){
 }
 
 function togglefebII(){
-	if(febI == 2){
+	if(febII == 2){
 		$('#febII').hide('slow');
 		$('#febIIspan').text("Vis program");
 		febII = 1;
@@ -103,7 +103,7 @@ function togglefebII(){
 }
 
 function togglefebIII(){
-	if(febI == 2){
+	if(febIII == 2){
 		$('#febIII').hide('slow');
 		$('#febIIIspan').text("Vis program");
 		febIII = 1;
@@ -116,7 +116,7 @@ function togglefebIII(){
 }
 
 function togglefebIIII(){
-	if(febI == 2){
+	if(febIIII == 2){
 		$('#febIIII').hide('slow');
 		$('#febIIIIspan').text("Vis program");
 		febIIII = 1;
