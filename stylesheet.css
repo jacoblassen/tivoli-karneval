@@ -134,7 +134,7 @@ h2 {
 }
 
 #tilmeldDiv	{
-	width:510px;
+	width:500px;
 	height:400px;
 	margin: 200px auto 0 auto;
 	/*background-color:#5bbce4;*/
@@ -183,14 +183,24 @@ h2 {
 }
 
 #frame {
-	height: auto;
+	height: 600px;
 	width: 700px;
-	margin: -8px auto 0 auto;
+	margin: 10px auto 0 auto;
+}
+
+
+#nydhedframe {
+	height: 600px;
+	width: 700px;
+	margin: 10px auto 50px auto;
 }
 
 #frametop {
 	height: 100px;
 	width: 700px;
+<<<<<<< HEAD
+	
+=======
 	background-image:url(images/rammetop02.png);
 	text-align:center;
 }
@@ -214,6 +224,7 @@ h2 {
 	text-align:center;
 	color:#e5ddb9;
 	text-decoration:underline;
+>>>>>>> 0273e0019155a17f3150d1b3f20f8e724110eae2
 }
 
 #sideframewrapper{
@@ -228,39 +239,34 @@ h2 {
 }
 
 #rammemiddle {
-	height: 150px;
-	widht: 700px;
 	height: auto;
 	width: 700px;
 	background-image:url(images/rammemiddle02.png);
 	background-repeat:repeat-y;
 }
 
-.rammecontent {
+#rammecontent {
 	height: auto;
 	width: 520px;
 	margin: 0 90px 0 90px;
-	padding-top:20px;
 }
 
+<<<<<<< HEAD
+.contactimage {
+=======
 .rammecontent h1 {
 	text-align:center;
 }
 
 .contactimage1 {
+>>>>>>> 0273e0019155a17f3150d1b3f20f8e724110eae2
 	width: 150px;
 	height: 150px;
-	margin-left: 35px;
-	float: left;
 }
 
-.contactimage2 {
-	width: 150px;
-	height: 150px;
-	margin-right: 35px;
-	float: right;
-}
 
+<<<<<<< HEAD
+=======
 .contacttext1 {
 	width: 280px;
 	height: 150px;
@@ -277,25 +283,38 @@ h2 {
 .contacttext2 h1{
 	text-align:right;
 }
+>>>>>>> 0273e0019155a17f3150d1b3f20f8e724110eae2
 
-.contacttext2 {
-	width: 280px;
+.programimage {
+	width: 150px;
 	height: 150px;
-	margin-left: 35px;
+	margin: 10px 5px 50px 5px;
 	float: left;
+<<<<<<< HEAD
+	
+=======
 	text-align: right;
 	font-family:'georgia', serif;
+>>>>>>> 0273e0019155a17f3150d1b3f20f8e724110eae2
 }
 
-.contacttext1 p {
-	color:white;
+.programtext {
+	width: 300px;
+	height: auto;
+	margin: 10px 5px 50px 5px;
+	float:left;
+	
 }
 
-.contacttext2 p {
-	color:white;
+
+
+.contacttext {
+	width: 300px;
+	height: 150px;
 }
 
-.contactwrapper {
+
+#contactwrapper {
 	height: 150px;
 	width: 520px;
 }
@@ -303,7 +322,6 @@ h2 {
 #programwrapper {
 	height: auto;
 	width: 520px;
-	margin:0 auto 0 auto;
 }
 
 #programwrapper h2 {
@@ -325,5 +343,10 @@ h2 {
 
 #contactwrapper li {
 	display: inline;
-
 }
+
+a:link {color: #e5ddb9;}
+a:visited {color: #e5ddb9;}
+a:active {color: #e5ddb9;}
+a:hover {color: #F40000;}
+a {text-decoration: none;}
