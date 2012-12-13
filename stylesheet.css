@@ -134,7 +134,7 @@ h2 {
 }
 
 #tilmeldDiv	{
-	width:500px;
+	width:510px;
 	height:400px;
 	margin: 200px auto 0 auto;
 	/*background-color:#5bbce4;*/
@@ -303,6 +303,7 @@ h2 {
 #programwrapper {
 	height: auto;
 	width: 520px;
+	margin:0 auto 0 auto;
 }
 
 #programwrapper h2 {
