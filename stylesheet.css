@@ -168,9 +168,9 @@ h1 {
 }
 
 #frame {
-	height: 600px;
+	height: auto;
 	width: 700px;
-	margin: 10px auto 0 auto;
+	margin: -8px auto 0 auto;
 }
 
 #frametop {
@@ -190,7 +190,7 @@ h1 {
 }
 
 #rammemiddle {
-	height: auto;
+	height: 150px;
 	widht: 700px;
 	background-image:url(images/rammemiddle02.png);
 	background-repeat:repeat-y;
@@ -205,18 +205,18 @@ h1 {
 .contactimage {
 	width: 150px;
 	height: 150px;
+	margin-left: 35px;
+	float: left;
 }
 
 .contacttext {
-	width: 300px;
+	width: 280px;
 	height: 150px;
+	margin-right: 35px;
+	float: right;
 }
 
 #contactwrapper {
 	height: 150px;
 	width: 520px;
-}
-
-#contactwrapper li {
-	display: inline;
 }

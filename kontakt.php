@@ -20,7 +20,7 @@
 <script type="text/javascript">
     	var id = "kontakt";
     	document.getElementById(id+'A').style.display = "block";
-    </script>
+</script>
 
 <?php
 	include 'lady.html'
@@ -35,14 +35,13 @@
         <div id="rammemiddle">
         	<div id="rammecontent">
             	<div id="contactwrapper">
-                <ul>
-            		<li><div class="contactimage">
+               		<div class="contactimage">
                 		<img src="images/285414_150347188373799_4268644_n.jpg" height="150px" width="150px" />
-                	</div><!--contactimage--></li>
-                	<li><div class="contacttext">
-                    <h1>lololol</h1>
-                	</div><!--contacttext--></li>
-                    </ul>
+                	</div><!--contactimage-->
+                	<div class="contacttext">
+                    	<h1>Patrick Brockmann</h1>
+                        <p>Head of events</p>
+                	</div><!--contacttext-->
                 </div><!--contactwrapper-->
             </div><!--rammecontent-->
         </div><!--rammemiddle-->
