@@ -41,9 +41,8 @@
 	</head>
 
 	<body>
-	
+	<a name="top"></a>
 
-	
 	<?php
 		include 'tilmeld.html';
 		include 'header.html';
@@ -91,6 +90,7 @@
 	
 		
         
+<<<<<<< HEAD
           <div id="nydhedframe">
                 <div id="frametop">
                     <img src="images/rammetop02.png" />
@@ -151,6 +151,29 @@
                 </div><!--framebottom-->
             
             </div><!--frame-->
+=======
+        <div id="frame">
+        	<div id="frametop">
+            	<div id="frametophtag">
+                	<h1>Nyheder</h1>
+                </div><!--frametophtag-->
+            </div><!--frametop-->
+            
+            <div id="rammemiddle">
+               	<div class="rammecontent">
+                	
+               	</div><!--rammecontent-->
+            </div><!--rammemiddle-->
+            
+            <div id="framebottom">
+            	<div id="tiltoppen">
+        			<a href="#top"><p>Tilbage til toppen</p></a>
+           		</div><!--tiltoppen-->
+            </div><!--framebottom-->
+            
+       	</div><!--frame-->
+
+>>>>>>> 0273e0019155a17f3150d1b3f20f8e724110eae2
     </div><!--master-->
         
 	</body>

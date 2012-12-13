@@ -198,7 +198,33 @@ h2 {
 #frametop {
 	height: 100px;
 	width: 700px;
+<<<<<<< HEAD
 	
+=======
+	background-image:url(images/rammetop02.png);
+	text-align:center;
+}
+
+#frametophtag {
+	height: 20px;
+	width: 700px;
+	margin-top: 50px;
+	float: left;
+}
+
+#tiltoppen {
+	height: 20px;
+	width: 700px;
+	margin-top: 30px;
+	float: left;
+}
+
+#tiltoppen a {
+	font-family: 'Old Standard TT', serif;
+	text-align:center;
+	color:#e5ddb9;
+	text-decoration:underline;
+>>>>>>> 0273e0019155a17f3150d1b3f20f8e724110eae2
 }
 
 #sideframewrapper{
@@ -209,6 +235,7 @@ h2 {
 #framebottom {
 	height:100px;
 	width: 700px;
+	background-image:url(images/rammebottom02.png);
 }
 
 #rammemiddle {
@@ -224,19 +251,51 @@ h2 {
 	margin: 0 90px 0 90px;
 }
 
+<<<<<<< HEAD
 .contactimage {
+=======
+.rammecontent h1 {
+	text-align:center;
+}
+
+.contactimage1 {
+>>>>>>> 0273e0019155a17f3150d1b3f20f8e724110eae2
 	width: 150px;
 	height: 150px;
 }
 
 
+<<<<<<< HEAD
+=======
+.contacttext1 {
+	width: 280px;
+	height: 150px;
+	margin-right: 35px;
+	float: right;
+	font-family:'georgia', serif;
+	text-align:left;
+}
+
+.contacttext1 h1{
+	text-align:left;
+}
+
+.contacttext2 h1{
+	text-align:right;
+}
+>>>>>>> 0273e0019155a17f3150d1b3f20f8e724110eae2
 
 .programimage {
 	width: 150px;
 	height: 150px;
 	margin: 10px 5px 50px 5px;
 	float: left;
+<<<<<<< HEAD
 	
+=======
+	text-align: right;
+	font-family:'georgia', serif;
+>>>>>>> 0273e0019155a17f3150d1b3f20f8e724110eae2
 }
 
 .programtext {
