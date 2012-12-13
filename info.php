@@ -22,5 +22,37 @@
 <?php
 	include 'lady.html'
 ?>
+
+
+<div id="master">
+  <div id="frame">
+		<div id="frametop">
+        	<img src="images/rammetop02.png" />
+        </div><!--frametop-->
+        
+            <div id="sideframewrapper">
+            
+            	<div id="rammemiddle">
+                
+                <div id="rammecontent">
+                    
+                            
+            </div><!--rammecontent-->
+        
+        </div><!--rammemiddle-->
+            
+            
+        </div><!--sideframewrapper-->
+    	
+        <div id="framebottom">
+        	<img src="images/rammebottom02.png" />
+        </div><!--framebottom-->
+    
+    </div><!--frame-->
+
+</div><!-- master -->
+
+
+
 </body>
 </html>
