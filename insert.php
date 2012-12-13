@@ -8,21 +8,30 @@
 	$error = 1;
 	$sender = "karneval@tivoli.dk";
 	
-	$query = "SELECT email, addresse FROM bruger WHERE email = '".$email."' OR addresse = '".$addr."'";
-	$result = $link->query($query);
-		while($row = $result->fetch_assoc()){
-			if($row['email'] == $email){
-				$error = 2;
-				echo $row['email']."<br />".$email;
-				echo "e-mailen findes";
-				return;
-			}
-			if($row['addresse'] == $addr){
-				$error = 2;
-				echo "addressen er allerede registreret";
-				return;
-			}
-		}
+	//$query = "SELECT email, addresse FROM bruger WHERE email = '".$email."' OR addresse = '".$addr."'";
+	//$result = $link->query($query);
+		//while($row = $result->fetch_assoc()){
+			//if($row['email'] == $email){
+				//$error = 2;
+				//echo $row['email']."<br />".$email;
+				//echo "e-mailen findes";
+				//return;
+			//}
+			//if($row['addresse'] == $addr){
+				//$error = 2;
+				//echo "addressen er allerede registreret";
+				//return;
+			//}
+		//}
+		
+	$query = "SELECT zip FROM zip WHERE zip = ?";
+	$stmt = $link->prepare($query);
+	$stmt->bind_param('i', $zip);
+	$stmt->execute();
+	
+	$stmt->bind_result($rowCount);
+	$stmt->fetch();
+	$stmt->close();
 	
 	if(isset($_POST["news"])){
 		$news = 2;
