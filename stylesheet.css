@@ -205,13 +205,10 @@ h2 {
 }
 
 #rammemiddle {
-<<<<<<< HEAD
 	height: 150px;
 	widht: 700px;
-=======
 	height: auto;
 	width: 700px;
->>>>>>> 27f2801c2e71a26dae5c252592973d0f98fd0787
 	background-image:url(images/rammemiddle02.png);
 	background-repeat:repeat-y;
 }
@@ -247,13 +244,15 @@ h2 {
 	
 }
 
-
-
 .contacttext {
 	width: 280px;
 	height: 150px;
 	margin-right: 35px;
 	float: right;
+}
+
+.contacttext p {
+	color:white;
 }
 
 
