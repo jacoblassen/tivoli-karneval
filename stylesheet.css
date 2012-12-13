@@ -191,7 +191,6 @@ h2 {
 #frametop {
 	height: 100px;
 	width: 700px;
-	
 }
 
 #sideframewrapper{
@@ -213,50 +212,53 @@ h2 {
 	background-repeat:repeat-y;
 }
 
-#rammecontent {
+.rammecontent {
 	height: auto;
 	width: 520px;
 	margin: 0 90px 0 90px;
+	padding-top:20px;
 }
 
-.contactimage {
+.contactimage1 {
 	width: 150px;
 	height: 150px;
 	margin-left: 35px;
 	float: left;
 }
 
-
-
-.programimage {
+.contactimage2 {
 	width: 150px;
-	height: 150px;
-	margin: 10px 5px 50px 5px;
-	float: left;
-	
-}
-
-.programtext {
-	width: 300px;
-	height: auto;
-	margin: 10px 5px 50px 5px;
-	float:left;
-	
-}
-
-.contacttext {
-	width: 280px;
 	height: 150px;
 	margin-right: 35px;
 	float: right;
 }
 
-.contacttext p {
+.contacttext1 {
+	width: 280px;
+	height: 150px;
+	margin-right: 35px;
+	float: right;
+	font-family:Georgia, serif;
+}
+
+.contacttext2 {
+	width: 280px;
+	height: 150px;
+	margin-left: 35px;
+	float: left;
+	text-align: right;
+	font-family:Georgia, serif;
+}
+
+.contacttext1 p {
 	color:white;
 }
 
+.contacttext2 p {
+	color:white;
+}
 
-#contactwrapper {
+.contactwrapper {
 	height: 150px;
 	width: 520px;
 }
