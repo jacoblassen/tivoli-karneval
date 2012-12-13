@@ -24,7 +24,7 @@
 			//}
 		//}
 		
-	$query = "SELECT zip FROM zip WHERE zip = ?";
+	$query = "SELECT COUNT(1) FROM zip WHERE zip = ?";
 	$stmt = $link->prepare($query);
 	$stmt->bind_param('i', $zip);
 	$stmt->execute();
@@ -32,6 +32,11 @@
 	$stmt->bind_result($rowCount);
 	$stmt->fetch();
 	$stmt->close();
+	
+	if($rowCount = 0){
+		echo "zip findes ikke i database<br />";
+		$error = 2;
+	}
 	
 	if(isset($_POST["news"])){
 		$news = 2;
@@ -55,6 +60,34 @@
 		$error = 2;
 	}	
 	
+	$query = "SELECT COUNT(1) FROM bruger WHERE email = ?";
+	$stmt = $link->prepare($query);
+	$stmt->bind_param('s', $email);
+	$stmt->execute();
+	
+	$stmt->bind_result($rowCount);
+	$stmt->fetch();
+	$stmt->close();
+	
+		if($rowCount > 0){
+			echo "Emailen findes allerede i database<br />";
+			$error = 2;
+		}
+		
+		$query = "SELECT COUNT(1) FROM bruger WHERE addresse = ?";
+		$stmt = $link->prepare($query);
+		$stmt->bind_param('s', $addr);
+		$stmt->execute();
+		
+		$stmt->bind_result($rowCount);
+		$stmt->fetch();
+		$stmt->close();
+		
+		if($rowCount > 0){
+			echo "addressen findes allerede i database<br />";
+			$error = 2;
+		}
+		
 	if (!preg_match("/^[a-zA-ZæøåÆØÅ ]* [0-9]{1,30}( ?)[a-zA-ZæøåÆØÅ0-9\.]*$/", $addr))	{
 		echo "addr er skrevet i forkert format <br />";
 		$error = 2;
