@@ -9,12 +9,27 @@ body {
 h1 {
 	font-size:24px;
 	font-family: 'Old Standard TT', serif;
+	font-weight:600;
 	color:#e5ddb9;
+}
+
+h2 {
+	font-size:22px;
+	font-family: 'Old Standard TT', serif;
+	ont-weight:600;
+	color:#e5ddb9;
+	
 }
 
 .p1 {
 	color:#e5ddb9;
+	font-size:18px;
 	font-weight:400;
+}
+
+#test {
+	width: auto;
+	display:none;
 }
 
 #headMaster	{
@@ -190,8 +205,13 @@ h1 {
 }
 
 #rammemiddle {
+<<<<<<< HEAD
 	height: 150px;
 	widht: 700px;
+=======
+	height: auto;
+	width: 700px;
+>>>>>>> 27f2801c2e71a26dae5c252592973d0f98fd0787
 	background-image:url(images/rammemiddle02.png);
 	background-repeat:repeat-y;
 }
@@ -209,6 +229,26 @@ h1 {
 	float: left;
 }
 
+
+
+.programimage {
+	width: 150px;
+	height: 150px;
+	margin: 10px 5px 50px 5px;
+	float: left;
+	
+}
+
+.programtext {
+	width: 300px;
+	height: auto;
+	margin: 10px 5px 50px 5px;
+	float:left;
+	
+}
+
+
+
 .contacttext {
 	width: 280px;
 	height: 150px;
@@ -216,7 +256,35 @@ h1 {
 	float: right;
 }
 
+
 #contactwrapper {
 	height: 150px;
 	width: 520px;
+}
+
+#programwrapper {
+	height: auto;
+	width: 520px;
+}
+
+#programwrapper h2 {
+	display:inline;
+	cursor:pointer;
+}
+
+#programwrapper span {
+	display:inline;
+	cursor:pointer;
+	color:#e5ddb9;
+	margin:0 30px 0 0;
+	font-family: 'georgia', serif;
+	font-size:12px;
+	font-weight:500;
+	float:right;
+}
+
+
+#contactwrapper li {
+	display: inline;
+
 }
