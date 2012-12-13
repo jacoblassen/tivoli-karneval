@@ -118,6 +118,6 @@
 	      <br><br>*** Now you Can send HTML Email <br> Regards<br>MOhammed Ahmed - Palestine
 	  </body>
 	</html>';
-
+	//sender email
 	//mail($email, "Karneval i Tivoli", "$message", "$headers");
 ?>
