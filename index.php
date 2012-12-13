@@ -91,30 +91,19 @@
 	
 		
         
-          <div id="frame">
-                <div id="frametop">
-                    <img src="images/rammetop02.png" />
-                </div><!--frametop-->
-                
-                    <div id="sideframewrapper">
-                    
-                        <div id="rammemiddle">
-                        
-                        <div id="rammecontent">
-                            
-                                   
-                    </div><!--rammecontent-->
-                
-                </div><!--rammemiddle-->
-                    
-                    
-                </div><!--sideframewrapper-->
-                
-                <div id="framebottom">
-                    <img src="images/rammebottom02.png" />
-                </div><!--framebottom-->
-            
-            </div><!--frame-->
+        <div id="frame">
+        	<div id="frametop">
+            	<div id="frametophtag">
+                	<h1>Nyheder</h1>
+                </div><!--frametophtag-->
+            </div><!--frametop-->
+            <div id="rammemiddle">
+               	<div class="rammecontent">
+               	</div><!--rammecontent-->
+            </div><!--rammemiddle-->
+            <div id="framebottom">
+            </div><!--framebottom-->
+       	</div><!--frame-->
 
     </div><!--master-->
         
