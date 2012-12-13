@@ -91,7 +91,7 @@
 	
 		
         
-          <div id="frame">
+          <div id="nydhedframe">
                 <div id="frametop">
                     <img src="images/rammetop02.png" />
                 </div><!--frametop-->
@@ -100,22 +100,57 @@
                     
                         <div id="rammemiddle">
                         
-                        <div id="rammecontent">
-                            
+                            <div id="rammecontent">
+                                    <div id="nyhedwrapper">
+                            			<h1>Nu er programmet for Tivoli karnevalsfest online<br/><br/> <a href="http://localhost/tivoli-karneval/program.php">Klik her for at se det</a></h1>
                                    
-                    </div><!--rammecontent-->
+                            
+                       
+                                    </div><!--nyhedwrapper-->  
+                                       
+                            </div><!--rammecontent-->
                 
-                </div><!--rammemiddle-->
+               			</div><!--rammemiddle-->
                     
                     
-                </div><!--sideframewrapper-->
+                	</div><!--sideframewrapper-->
+                
+                <div id="framebottom">
+                    <img src="images/rammebottom02.png" />
+                </div><!--framebottom-->
+            
+            
+
+
+ 		
+                <div id="frametop">
+                    <img src="images/rammetop02.png" />
+                </div><!--frametop-->
+                
+                    <div id="sideframewrapper">
+                    
+                        <div id="rammemiddle">
+                        
+                            <div id="rammecontent">
+                                    <div id="nyhedwrapper">
+                            			<h1>Nu er programmet for Tivoli karnevalsfest online<br/><br/> <a href="http://localhost/tivoli-karneval/program.php">Klik her for at se det</a></h1>
+                                   
+                            
+                       
+                                    </div><!--nyhedwrapper-->  
+                                       
+                            </div><!--rammecontent-->
+                
+               			</div><!--rammemiddle-->
+                    
+                    
+                	</div><!--sideframewrapper-->
                 
                 <div id="framebottom">
                     <img src="images/rammebottom02.png" />
                 </div><!--framebottom-->
             
             </div><!--frame-->
-
     </div><!--master-->
         
 	</body>
